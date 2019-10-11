@@ -20,7 +20,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 import java.lang.IllegalArgumentException
-import javax.sql.DataSource
 
 class SleepQualityViewModelFactory(
         private val sleepNightKey: Long,
